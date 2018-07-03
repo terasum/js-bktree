@@ -1,0 +1,39 @@
+{
+  "name": "js-bktree",
+  "version": "1.0.0",
+  "description": "Burkhard-Keller Tree (BK-Tree) JavaScript implements",
+  "main": "lib/bktree.js",
+  "scripts": {
+    "test": "npm run build && mocha --require babel-core/register",
+    "dev": "babel-node test/test.js",
+    "build": "babel src --out-dir lib",
+    "eslint": "eslint src"
+  },
+  "repository": "git@github.com:terasum/js-bktree.git",
+  "keywords": [
+    "bktree"
+  ],
+  "author": "terasum <terasum@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terasum/js-bktree/issues",
+    "homepage": "https://github.com/terasum/js-bktree#readme"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-es2015-parameters": "^6.24.1",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "babel-plugin-transform-strict-mode": "^6.24.1",
+    "benchmark": "^2.1.4",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "microtime": "^2.1.7",
+    "mocha": "^5.0.1"
+  }
+}
