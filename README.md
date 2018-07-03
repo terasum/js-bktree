@@ -4,8 +4,7 @@ The BK-tree is a simillar words fuzzy search algorithm,
 you can use this package search the simillar words from a
 long terms list.
 
-The edit distance calc algorithm is [Damerau–Levenshtein distance]
-(https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
+The edit distance calc algorithm is [Damerau–Levenshtein distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
 
 ## USAGE
 
