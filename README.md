@@ -9,7 +9,6 @@ The edit distance calc algorithm is [Damerau–Levenshtein distance](https://en.
 ## USAGE
 
 ```js
-import assert from "assert";
 import BKTree from "../lib/bktree";
 
 const words = [
